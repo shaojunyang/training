@@ -5,17 +5,18 @@
         <record id="view_training_subject_tree" model="ir.ui.view">
             <field name="name">pscloud.training.subject.tree</field>
             <field name="model">pscloud.training.subject</field>
+            <field name="tyoe">tree</field>
             <field name="arch" type="xml">
                 <tree string="科目列表">
                     <field name="name"/>
-                    <field name="person_id"/>
-                    <field name="desc"/>
+<!--                     <field name="person_id"/> -->
+<!--                     <field name="desc"/> -->
                 </tree>
             </field>
         </record>
 
-        <record id="view_training_subject_form" model="ir.ui.view">
-            <field name="name">pscloud.training.subject.form</field>
+<!--         <record id="view_training_subject_form" model="ir.ui.view">
+<!--             <field name="name">pscloud.training.subject.form</field>
             <field name="model">pscloud.training.subject</field>
             <field name="arch" type="xml">
                 <form string="课程">
@@ -24,8 +25,8 @@
                             <group>
                                 <field name="name"/>
                             </group>
-                            <group>
-                                <field name="person_id"/>
+                            <group> -->
+<!--                                 <field name="person_id"/>
                             </group>
                         </group>
                         <notebook>
@@ -52,8 +53,8 @@
             <field name="view_type">form</field>
             <field name="view_id" ref="view_training_subject_tree"/>
             <field name="view_mode">tree,form</field>
-        </record>
-
+        </record> -->
+ 
 
 
 
