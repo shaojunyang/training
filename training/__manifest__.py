@@ -12,7 +12,7 @@
        #'wizard/student_regiester_views.xml',
       # 'views/res_partner_views.xml',
        # 'views/training_lesson_views.xml',
-        'views/training_subject_views.xml',
+        'views/training_views.xml',
     # 'views/training_views.xml',
     ],
 #     'demo': [
